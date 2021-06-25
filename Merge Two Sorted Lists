@@ -20,6 +20,7 @@ public class MergeTwoSortedLists
     }
     scan.nextLine();
     list1.addAll(list2);
+    Collections.sort(list1);
     System.out.println(list1);
   }
 }
